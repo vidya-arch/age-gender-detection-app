@@ -1,0 +1,25 @@
+# ===============================
+# Python / FastAPI (Backend)
+# ===============================
+venv/
+.venv/
+env/
+backend/venv/
+backend/.venv/
+
+__pycache__/
+backend/__pycache__/
+*.pyc
+
+# Python environment variables
+.env
+
+# Uploads / runtime files
+backend/uploads/
+
+# ===============================
+# OS / Editor
+# ===============================
+Thumbs.db
+.vscode/
+.idea/
