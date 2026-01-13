@@ -25,3 +25,40 @@ A full-stack AI-powered web application that predicts **Age and Gender from imag
 
 ## 📂 Project Structure
 
+age-gender-app/
+│── backend/
+│ ├── main.py
+│ ├── prompts/
+│ ├── services/
+│ ├── uploads/
+│ └── requirements.txt
+│
+│── frontend/
+│ ├── src/
+│ ├── public/
+│ └── package.json
+│
+│── .gitignore
+│── README.md
+
+yaml
+Copy code
+
+---
+
+## ▶️ How to Run Locally
+
+### Backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app
+Frontend
+cd frontend
+npm install
+npm start
+
+cd frontend
+npm install
+npm start
